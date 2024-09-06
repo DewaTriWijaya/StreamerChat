@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         // Ketika tombol start diklik, mulai streaming
         binding.startButton.setOnClickListener {
             binding.responseTextView.text = ""
-            streamViewModel.streamResponse("Berikan tips kesehatan diabetes")
+            streamViewModel.streamResponse("Diabetes adalah")
         }
     }
 }
